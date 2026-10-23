@@ -1,6 +1,7 @@
 # Build output
 .build/
-dist/
+dist/*
+!dist/*.dmg
 
 # Locally downloaded / vendored binaries
 vendor/
@@ -9,6 +10,7 @@ vendor/
 # macOS
 .DS_Store
 *.dmg
+!dist/*.dmg
 
 # SwiftPM / editors
 .swiftpm/
