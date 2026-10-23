@@ -1,0 +1,16 @@
+# Build output
+.build/
+dist/
+
+# Locally downloaded / vendored binaries
+vendor/
+.tools/
+
+# macOS
+.DS_Store
+*.dmg
+
+# SwiftPM / editors
+.swiftpm/
+*.xcodeproj
+*.xcworkspace

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleExecutable</key>
+    <string>DeXMac</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.dexmac.DeXMac</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>DeX for Mac</string>
+    <key>CFBundleDisplayName</key>
+    <string>DeX for Mac</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.utilities</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.0</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>NSHumanReadableCopyright</key>
+    <string>Open source. Not affiliated with Samsung Electronics. DeX is a trademark of Samsung Electronics.</string>
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>DeX for Mac uses your local network to connect to your Galaxy phone over Wi-Fi for adb and wireless DeX.</string>
+    <key>NSBonjourServices</key>
+    <array>
+        <string>_adb-tls-pairing._tcp</string>
+        <string>_adb-tls-connect._tcp</string>
+        <string>_adb._tcp</string>
+    </array>
+    <key>NSSupportsAutomaticGraphicsSwitching</key>
+    <true/>
+</dict>
+</plist>
